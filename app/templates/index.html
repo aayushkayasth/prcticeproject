@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Navbar</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app/style.css' %}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <h1>Welcome to My Website</h1>
+        <p>This is a basic layout with a navigation bar</p>
+    </header>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>About Us</h2>
+        <p>This section gives a short description about the website or organization. It is a clean and beginner-friendly design built using only HTML and CSS.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MySite. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
